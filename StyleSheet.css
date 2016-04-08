@@ -1,4 +1,38 @@
-﻿body
+﻿.auto-style1 {
+font-size: xx-large;
+color: #0000FF;
+font-family: "Harlow Solid Italic";
+}
+.auto-style2 {
+margin-top: 0px;
+}
+.auto-style3 {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+font-size: x-large;
+}
+.auto-style4 {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+font-size: large;
+}
+.auto-style5 {
+font-family: "Stylus BT";
+text-align: center;
+font-size: x-large;
+}
+.auto-style7 {
+text-align: center;
+}
+.auto-style10 {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: x-large;
+}
+.auto-style11 {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.auto-style12 {
+font-size: medium;
+}body
 {
 }
 /* Dropdown Button */
