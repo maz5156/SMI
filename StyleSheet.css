@@ -1,4 +1,5 @@
-﻿.auto-style1 {
+﻿
+.auto-style1 {
 font-size: xx-large;
 color: #0000FF;
 font-family: "Harlow Solid Italic";
@@ -32,49 +33,61 @@ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .auto-style12 {
 font-size: medium;
-}body
-{
 }
-/* Dropdown Button */
-.dropbtn {
-    background-color: #900028;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+.button {
+    background-color: #990028;
     border: none;
-    cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #900028;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50px;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.table1 {
+    background-color: #ffffff;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 12px;
+    width: 635px;
+    height: 61px;
+}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.td1 {
+    background-color: #262222;
+    vertical-align: center;
+    height: 112px; 
+    width: 176px;
+}
+
+.table2 {
+    border: 0px;
+    padding: 0px;
+    border-spacing: 10px;
+    height: 195px;
+    width: 55%;
+}
+
+.td2 {
+    height: 185px;
+    vertical-align: top;
+    width: 100px;
+    padding: 6px;
+    word-spacing: 4px;
+}
+
+.table3 {
+    background-color: #ffffff;
+    border: 0px;
+    padding: 6px;
+    border-spacing: 4px;
+    width: 137px;
+}
+
+.tr1 {
+    background-color: #cccccc;
+}
