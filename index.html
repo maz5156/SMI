@@ -1,0 +1,105 @@
+﻿<html>
+<head>
+<title>Sterman Masser Inc.</title>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<script>
+    function showTable(str) {
+    if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else { 
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("Tables").innerHTML = xmlhttp.responseText;
+            }
+        };
+        xmlhttp.open("GET","SMI.php?q="+str,true);
+        xmlhttp.send();
+    }
+}
+</script>
+
+</head>
+<!--BACKGROUNDCOLOR-->
+<body class="auto-style1">
+<!--Banner-->
+<center>
+<table class="table1">
+<tr>
+<td class="td1"> 
+<img src="SMI.jpg" class="auto-style2"></td>
+</tr>
+</table>
+<!--TABLE LEFT-->
+<table class="table2">
+<tr>
+<td><b><table class="table3">
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(1)">Line 1</a></button></td>
+</tr>
+
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(2)">Line 2</p></button></td>
+</tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(3)">Line 3</p></button></td>
+</tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(4)">Line 4</p></button></td>
+</tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(5)">Line 5</p></button></td>
+</tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(6)">Line 6</p></button></td>
+</tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(7)">Line 7</p></button></td>
+</tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(8)">Line 8</p></button></td></tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(9)">Line 9</p></button></td></tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(10)">Line 10</p></button></td></tr>
+
+<tr class="tr1">
+<td <button><p align="left" class="button" onclick="showTable(11)">Line 11</p></button></td></tr>
+
+<font color="white">
+</table>
+
+<table>
+
+<font color="#ff0000">
+</table>
+<table>
+
+<font color="#ff0000">
+</table>
+</td>
+<td class ="auto-style4">
+<div class="auto-style3">
+<font color="#000000">
+	<span><strong>Line Tables Below</strong></span></font>
+	<div id="Tables"></div>
+</td>
+</div>
+</body>
+</html>
